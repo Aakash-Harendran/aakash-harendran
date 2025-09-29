@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aakash Harendran - Computer Science Co-op Student | Ontario Tech University">
+    <title>Aakash Harendran | Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">AH</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link nav-link-cta">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Available for Co-op
+                    </div>
+                    <h1 class="hero-title">
+                        Aakash Harendran
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Computer Science Student & <span class="gradient-text">Data Analyst</span>
+                    </h2>
+                    <p class="hero-description">
+                        Fourth-year Computer Science Honours student at Ontario Tech University, specializing in data analytics and full-stack development. Passionate about building scalable, user-focused solutions and continuously learning new technologies to stay ahead in the field.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1L15 8L8 15M15 8H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="Aakash_Harendran_Resume.pdf" class="btn btn-outline" download>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-value">10+</div>
+                            <div class="stat-label">Languages & Frameworks</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">2×</div>
+                            <div class="stat-label">Dean's Honours</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">800+</div>
+                            <div class="stat-label">Users Impacted</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="window-title">portfolio.py</div>
+                        </div>
+                        <div class="window-content">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-param">self</span>):
+        <span class="code-param">self</span>.name = <span class="code-string">"Aakash Harendran"</span>
+        <span class="code-param">self</span>.role = <span class="code-string">"CS Student"</span>
+        <span class="code-param">self</span>.location = <span class="code-string">"Toronto, ON"</span>
+        
+    <span class="code-keyword">def</span> <span class="code-function">get_skills</span>(<span class="code-param">self</span>):
+        <span class="code-keyword">return</span> [
+            <span class="code-string">"Python"</span>, <span class="code-string">"Java"</span>,
+            <span class="code-string">"JavaScript"</span>, <span class="code-string">"Vue.js"</span>,
+            <span class="code-string">"Node.js"</span>, <span class="code-string">"SQL"</span>
+        ]
+    
+    <span class="code-keyword">def</span> <span class="code-function">get_interests</span>(<span class="code-param">self</span>):
+        <span class="code-keyword">return</span> [
+            <span class="code-string">"Data Analysis"</span>,
+            <span class="code-string">"Full-Stack Dev"</span>,
+            <span class="code-string">"Automation"</span>
+        ]</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// About Me</span>
+                <h2 class="section-title">Education & Background</h2>
+            </div>
+            <div class="about-grid">
+                <div class="info-card">
+                    <div class="card-header">
+                        <div class="card-icon">🎓</div>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="education-info">
+                        <h4>Ontario Tech University</h4>
+                        <p class="degree">Bachelor of Science in Computer Science Honours (Co-op)</p>
+                        <div class="edu-meta">
+                            <span>📍 Oshawa, Ontario</span>
+                            <span>📅 Sep 2022 – Apr 2027</span>
+                        </div>
+                        <div class="awards">
+                            <div class="award-item">🏆 Dean's Honours List - Fall 2024</div>
+                            <div class="award-item">🏆 Dean's Honours List - Winter 2025</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="card-header">
+                        <div class="card-icon">📚</div>
+                        <h3>Relevant Coursework</h3>
+                    </div>
+                    <div class="coursework-grid">
+                        <div class="course-item">Data Structures</div>
+                        <div class="course-item">Algorithm Analysis</div>
+                        <div class="course-item">Software Methodology</div>
+                        <div class="course-item">Data Analysis</div>
+                        <div class="course-item">Quality Assurance</div>
+                        <div class="course-item">Database Systems</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Professional Experience</span>
+                <h2 class="section-title">Work History</h2>
+            </div>
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div class="exp-left">
+                        <h3>Data and Process Analyst</h3>
+                        <p class="exp-company">Ontario Tech University - Facilities Management</p>
+                    </div>
+                    <div class="exp-right">
+                        <span class="exp-date">May 2025 – Present</span>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li>Improved operational reporting efficiency by <strong>40%</strong> through dynamic Power BI dashboards for energy usage, financial data, and work order tracking</li>
+                    <li>Reduced manual data handling time by <strong>30%</strong> via automated extraction and transformation workflows from Archibus CMMS</li>
+                    <li>Enhanced cross-departmental process clarity by mapping and optimizing <strong>5+ key workflows</strong> using Visio</li>
+                    <li>Enabled data-driven decision making across facility operations through streamlined reporting systems</li>
+                </ul>
+                <div class="tech-tags">
+                    <span>Power BI</span>
+                    <span>Archibus CMMS</span>
+                    <span>Visio</span>
+                    <span>Data Automation</span>
+                    <span>Process Optimization</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">// Featured Work</span>
+            <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <a href="https://github.com/Aakash-Harendran/Ontario_Tech_Exam_Scheduler" target="_blank" class="project-card-link">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">01</span>
+                        <h3>Ontario Tech Exam Scheduler</h3>
+                    </div>
+                    <p class="project-desc">
+                        Full-stack web application automating exam schedule management for Ontario Tech students. 
+                        Built robust web scraping system delivering real-time data for 800+ courses with Google 
+                        Calendar integration.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">50%</span>
+                            <span class="metric-label">Error Reduction</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">800+</span>
+                            <span class="metric-label">Courses</span>
+                        </div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Vue.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Puppeteer</span>
+                        <span>Google API</span>
+                    </div>
+                    <span class="project-date">April 2025</span>
+                </div>
+            </a>
+
+            <!-- Project 2 -->
+            <a href="https://github.com/Aakash-Harendran/Voxa-AI-ChromeExtension" target="_blank" class="project-card-link">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">02</span>
+                        <h3>Voxa AI Chrome Extension</h3>
+                    </div>
+                    <p class="project-desc">
+                        AI-powered Chrome extension providing real-time translation and text summarization across 
+                        17+ languages. Integrated advanced NLP models with secure Flask backend using HTTPS encryption.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">17+</span>
+                            <span class="metric-label">Languages</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">Real-time</span>
+                            <span class="metric-label">Processing</span>
+                        </div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Flask API</span>
+                        <span>NLLB-200</span>
+                        <span>BART</span>
+                        <span>Nginx</span>
+                    </div>
+                    <span class="project-date">February 2025</span>
+                </div>
+            </a>
+
+            <!-- Project 3 -->
+            <a href="https://github.com/Aakash-Harendran/Fast-Food-Data-Project" target="_blank" class="project-card-link">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">03</span>
+                        <h3>Fast Food Data Analysis</h3>
+                    </div>
+                    <p class="project-desc">
+                        Comprehensive data analysis examining pricing trends, calorie content, and consumer preferences 
+                        across major fast food chains using Python data science stack.
+                    </p>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">Multi-source</span>
+                            <span class="metric-label">Dataset</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">Advanced</span>
+                            <span class="metric-label">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                    </div>
+                    <span class="project-date">November 2023</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Technical Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Vue.js</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js/Express</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Flask</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Pandas/NumPy</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="tech-grid">
+                        <span>Git/GitHub</span>
+                        <span>Power BI</span>
+                        <span>Azure</span>
+                        <span>REST APIs</span>
+                        <span>Linux</span>
+                        <span>Postman</span>
+                        <span>VS Code</span>
+                        <span>Jupyter</span>
+                        <span>Agile</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Leadership</span>
+                <h2 class="section-title">Community Involvement</h2>
+            </div>
+            <div class="leadership-card">
+                <div class="lead-header">
+                    <div>
+                        <h3>Vice President</h3>
+                        <p>Computer Science Club - Don Mills Collegiate Institute</p>
+                    </div>
+                    <span class="lead-date">Sep 2020 – Jun 2021</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Organized and led <strong>3+ coding workshops</strong> and tech events, boosting member engagement by <strong>40%</strong></li>
+                    <li>Resolved <strong>15+ classroom technical issues</strong> through PC hardware/software diagnostics and repair</li>
+                    <li>Delivered interactive presentations on emerging CS topics including programming languages and development tools</li>
+                    <li>Promoted collaborative learning environment and managed project timelines across multiple initiatives</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-tag">// Get In Touch</span>
+                    <h2 class="contact-title">Let's Work Together</h2>
+                    <p class="contact-desc">
+                        I'm actively seeking Winter 2026 co-op opportunities. If you're looking for a motivated 
+                        computer science student with proven technical skills and a track record of delivering results, 
+                        let's connect.
+                    </p>
+                </div>
+                <div class="contact-grid">
+                    <a href="mailto:aakashharen@gmail.com" class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">aakashharen@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/aakashharen" class="contact-item" target="_blank">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">in/aakashharen</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Aakash-Harendran" class="contact-item" target="_blank">
+                        <div class="contact-icon">💻</div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">Aakash-Harendran</span>
+                        </div>
+                    </a>
+                    <a href="tel:647-289-7822" class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-info">
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">647-289-7822</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 Aakash Harendran. All rights reserved.</p>
+                <p>Based in Toronto, Ontario • Seeking Winter 2026 Co-op</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
